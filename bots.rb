@@ -63,8 +63,8 @@ class BoodooBot
     @attempts = 0
     @followers = []
     @following = []
-    @archive_path = "corpus/robin.csv"
-    @model_path = "model/robin.model"
+    @archive_path = "corpus/malsbot.csv"
+    @model_path = "model/malsbot.model"
 
     if can_run?
       make_model!
@@ -222,8 +222,8 @@ class BoodooBot
   def load_model!
     return if @model
 
-    @corpus_path ||= "corpus/robin.csv"
-    @model_path ||= "model/robin.model"
+    @corpus_path ||= "corpus/malsbot.csv"
+    @model_path ||= "model/malsbot.model"
 
     log "Consuming corpus #{@corpus_path}"
     Ebooks::Model.consume(@corpus_path).save(@model_path)

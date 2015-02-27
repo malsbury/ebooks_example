@@ -1,7 +1,7 @@
 {
-  "name": "robinbot",
+  "name": "malsbot",
   "description": "Turn-key _ebooks deployment using twitter_ebooks",
-  "repository": "https://github.com/BooDoo/ebooks_example/tree/robinbot",
+  "repository": "https://github.com/malsbury/ebooks_example/tree/malsbot",
   "keywords": [
     "twitter",
     "bot",
@@ -12,8 +12,8 @@
   ],
   "env": {
     "LANG": "en_US.UTF-8",
-    "BOT_NAME": "mu_ebooks",
-    "SOURCE_USERNAME": "calaminii",
+    "BOT_NAME": "malsbot",
+    "SOURCE_USERNAME": "malsbury",
     "CONSUMER_KEY": "",
     "CONSUMER_SECRET": "",
     "ACCESS_TOKEN": "",

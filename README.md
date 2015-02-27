@@ -1,11 +1,11 @@
-# mu_ebooks
+# malsbot
 
-I'M SORRY IT'S COME TO THIS
+Thanks to robinbot branch
 
 ## Usage
 
 Click this:  
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/BooDoo/ebooks_example/tree/robinbot)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/malsbury/ebooks_example/tree/malsbot)
 
 Put your API secrets into Heroku Config Vars using the web dashboard.
 
